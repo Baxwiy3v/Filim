@@ -1,0 +1,135 @@
+     
+      
+     
+       * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+   
+    .header {
+        background-color: #333;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 85px;
+        padding: 20px;
+    }
+
+    .header-logo {
+        width: 250px;
+        height: 80px;
+    }
+
+    .header-menu {
+        list-style: none;
+        display: flex;
+    }
+
+    .header-menu li {
+        margin: 0 10px;
+    }
+
+    .header-menu a {
+        color: white;
+        text-decoration: none;
+    }
+
+   
+
+
+    .footer {
+        background-color: #333;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .footer-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-logo {
+        width: 100px;
+        height: 60px;
+    }
+
+    .footer-rights {
+        margin-left: 10px;
+    }
+
+    .footer-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-contact {
+        margin-right: 10px;
+    }
+
+    .footer-social {
+        list-style: none;
+        display: flex;
+    }
+
+    .footer-social li {
+        margin: 0 5px;
+    }
+
+    .footer-social a {
+        color: white;
+        text-decoration: none;
+    }
+
+    
+      body {
+        background-image: url('https://i.ytimg.com/vi/EGEluEqnKks/maxresdefault.jpg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        font-family: Arial, sans-serif; 
+        margin: 0;
+        padding: 0; 
+      }
+      
+      
+    
+      .card {
+        background-color: #333;
+      }
+      
+    
+      .card, .card-img-top {
+        border-radius: 15px;
+      }
+      
+    
+      
+
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        transform: scale(1.05);
+      }
+      
+
+      .card-title, .card-text {
+        color: rgb(231, 171, 21);
+        
+      }
+      
+    
+      .card {
+  
+ 
+        margin-bottom: 10px;
+         
+        }
+        
+        
+
